@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="/assets/moonapp.svg">
+    <title>Login | MoonApp</title>
+</head>
+<style>
+    body{
+        background-image: linear-gradient(45deg, #ffcb3c,#7aff3c);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div{
+        text-align: center;
+        position: absolute;
+        background-color: #000000cc;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 15px;
+        padding: 40px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        color: white;
+    }
+    input{
+        padding: 15px;
+        border: none;
+        font-size: 15px;
+        outline: none;
+        width: 88%
+    }
+    button{
+        background-color: dodgerblue;
+        border: none;
+        border-radius: 5px;
+        padding: 15px;
+        width: 100%;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: deepskyblue;
+    }
+</style>
+<body>
+    <div>
+        <h2>Área de login</h2>
+        <input required="required" type="text" placeholder="Usuário"/>
+        <br><br>
+        <input required="required" type="password" placeholder="Senha" /> 
+        <br><br>
+        <button>Entrar</button>
+        <br><br>
+        <a href="/account/create.html" style="color: #6aafff">Não tem uma conta? Crie-a agora!</a>
+    </div>
+    
+    
+</body>
+</html>
